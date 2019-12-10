@@ -1,6 +1,6 @@
 # Live Project
 
-<h2>Overview</h2>
+<h2 style="color: blue;">Overview</h2>
 <p>
 The last two weeks of my time at the Tech Academy revolved around a live porject. Along with my peers we worked on fixing bugs, adding features, and updating the clients website. 
 </p>
@@ -13,7 +13,7 @@ Below I will show some of the code work I did during this time. I will also incl
 </p>
 <br>
 
-<h2>Front End Stories</h2>
+<h2 style="color: blue;">Front End Stories</h2>
 
 <h4>&middot; Make Uniform all Search Bars</h4>
 <p>
