@@ -15,6 +15,7 @@ Below I will show some of the code work I did during this time. I will also incl
 
 <h2>Front End Stories</h2>
 
+<br>
 <h4>&middot; Make Uniform all Search Bars</h4>
 <p>
 A lot of the search bars on the website had different formatting. Four HTML files had search bars to which I added a new class called <i>.txtbox-margin</i> which I then targeted in the main CSS file allowing me and anyone else in the future to change the formatting of all the search bars from one location. Below is an example of the CSS code;
