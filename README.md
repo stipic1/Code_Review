@@ -25,6 +25,7 @@ A lot of the search bars on the website had different formatting. Four HTML file
     margin: 0px 0px 20px 0px;
 }
 </pre>
+<hr>
 <br>
 
 <h4>Fix UL Styling for Dropdown Navigation</h4>
@@ -40,6 +41,7 @@ CSS
     text-align: center;
 }
 </pre>
+<hr>
 <br>
 
 <h4>Add a Video Background to the Front Page</h4>
@@ -50,7 +52,7 @@ Instead of a static image for the landing page, we wanted to change it to a vide
 HTML
 </p>
 <pre>
-<video autoplay muted loop id="bgVideo"><source src="~/content/videos/NYC-Traffic.mp4" /></video>
+&lt;video autoplay muted loop id=&quot;bgVideo&quot;&gt;&lt;source src=&quot;~/content/videos/NYC-Traffic.mp4&quot; /&gt;&lt;/video&gt;
 
 </pre>
 
