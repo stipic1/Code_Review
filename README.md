@@ -1,6 +1,6 @@
 # Live Project
 
-<h3>Overview</h3>
+<h2>Overview</h2>
 <p>
 The last two weeks of my time at the Tech Academy revolved around a live porject. Along with my peers we worked on fixing bugs, adding features, and updating the clients website. 
 </p>
@@ -13,51 +13,51 @@ Below I will show some of the code work I did during this time. I will also incl
 </p>
 <br>
 
-<h3>Front End Stories</h3>
+<h2>Front End Stories</h2>
 
-<h5>Make Uniform all Search Bars</h5>
+<h4>Make Uniform all Search Bars</h4>
 <p>
 A lot of the search bars on the website had different formatting. Four HTML files had search bars to which I added a new class called <i>.txtbox-margin</i> which I then targeted in the main CSS file allowing me and anyone else in the future to change the formatting of all the search bars from one location. Below is an example of the CSS code;
 </p>
-<blockquote>
 <p>CSS</p>
+<pre>
 .txtbox_margin {
     margin: 0px 0px 20px 0px;
 }
-</blockquote>
+</pre>
 <br>
 
-<h5>Fix UL Styling for Dropdown Navigation</h5>
+<h4>Fix UL Styling for Dropdown Navigation</h4>
 <p>
 Someone had previous targeted the entire UL (unordered list) element within CSS changing the styling of all UL elements within the website when they intended it for only one section. I found and entered the correct HTML file, found the drop down nav and targeted the UL element with a class <i>.nav-center</i> to target in CSS. The code below reflects this.
 </p>
 <p>
 CSS
 </p>
-<blockquote>
+<pre>
 .nav-center {
     list-style-type: none;
     text-align: center;
 }
-</blockquote>
+</pre>
 <br>
 
-<h5>Add a Video Background to the Front Page</h5>
+<h4>Add a Video Background to the Front Page</h4>
 <p>
-Instead of a static image for the landing page, we wanted to change it to a video background that covers the page and is responsive to different screen sizes. Below is my code for the index HTML file and the main CSS file which I targeted with an ID <i>bgVideo</i> since it is unique and will only be used once.
+Instead of a static image for the landing page, we wanted to change it to a video background that covers the page and is responsive to different screen sizes. Below is my code for the index HTML file and the main CSS file which I targeted with an ID <i>#bgVideo</i> since it is unique and will only be used once.
 </p>
 <p>
 HTML
 </p>
-<blockquote>
+<pre>
 <video autoplay muted loop id="bgVideo"><source src="~/content/videos/NYC-Traffic.mp4" /></video>
 
-</blockquote>
+</pre>
 
 <p>
 CSS
 </p>
-<blockquote>
+<pre>
 #bgVideo {
     position: fixed;
     right: 0;
@@ -66,4 +66,4 @@ CSS
     min-width: 100%;
     z-index: -1;
 }
-</blockquote>
+</pre>
